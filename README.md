@@ -1,10 +1,6 @@
 # Product Line Design with Many Components and Supplier Mix: A Tailored Benders Approach
 
-This repository contains the computational implementations accompanying the research paper:
-
-> **Product Line Design with Many Components and Supplier Mix: A Tailored Benders Approach**  
-> Shaghayegh Ramezanpour and Laurent Alfandari  
-> ESSEC Business School, France
+This repository contains the computational implementations accompanying the research paper.
 
 The study integrates **product-line design**, **customer choice**, and **capacitated multi-supplier procurement** in a single profit-maximization framework. The resulting mixed-integer linear programming (MILP) model becomes computationally challenging when the number of components is large. To improve scalability, the paper develops two tailored Benders decomposition formulations with closed-form subproblem calculations and greedy initialization.
 
@@ -122,8 +118,6 @@ product-line-design-supplier-mix-benders/
 │
 ├── data/
 │   └── Main Dataset.xlsx
-│
-└── results/
 ```
 
 Suggested mapping of the supplied scripts:
@@ -473,38 +467,8 @@ Because solver runtimes depend on hardware, operating system, CPLEX version, sol
 
 ---
 
-## 16. Research use and citation
-
-If you use this code, data, or modeling approach in academic work, please cite the accompanying paper.
-
-```bibtex
-@misc{ramezanpour_alfandari_pld_benders,
-  author = {Ramezanpour, Shaghayegh and Alfandari, Laurent},
-  title  = {Product Line Design with Many Components and Supplier Mix: A Tailored Benders Approach},
-  note   = {Working paper, ESSEC Business School}
-}
-```
-
-Please update the citation with the journal, year, volume, pages, and DOI once the final publication information is available.
-
----
-
 ## 17. Authors
 
 **Shaghayegh Ramezanpour**  
 **Laurent Alfandari**  
 ESSEC Business School, France
-
----
-
-## 18. Reproducibility note
-
-This repository is intended to document the computational implementation of the accompanying research. Before publishing or archiving the repository, it is recommended to:
-
-- replace machine-specific absolute paths with repository-relative paths;
-- include the exact Excel dataset used for the reported experiments;
-- record the Python and CPLEX versions;
-- add a `requirements.txt` or environment file;
-- add a software license if reuse or redistribution is permitted;
-- archive the final release with a persistent identifier (for example, Zenodo) if the repository will be cited in a publication.
-
