@@ -105,21 +105,6 @@ The paper also studies swap-local-search and revenue-based greedy alternatives, 
 
 ## 4. Repository structure
 
-A recommended GitHub structure is:
-
-```text
-product-line-design-supplier-mix-benders/
-│
-├── README.md
-├── code/
-│   ├── CM.py
-│   ├── BD1.py
-│   └── BD2.py
-│
-├── data/
-│   └── Main Dataset.xlsx
-```
-
 Suggested mapping of the supplied scripts:
 
 | File | Purpose |
